@@ -214,7 +214,7 @@ modules: {
   wrapper: (path, data) => {
     return `
 require.define({${path}: function(exports, require, module) {
-  #{data}
+  ${data}
 }});\n\n
     `
   }
